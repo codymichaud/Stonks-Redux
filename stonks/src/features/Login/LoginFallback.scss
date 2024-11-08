@@ -1,0 +1,33 @@
+.login-fallback-section {
+    min-height: 63vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    overflow: hidden;
+
+    .login-fallback-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2 {
+            margin: 3rem;
+        }
+        Button {
+            font-family: "Roboto", sans-serif;
+            font-size: 1.2rem;
+            padding: 1rem 2rem;
+            background: white;
+            border: none;
+            border-radius: 15px;
+            color: #a300a3;
+            transition: all ease 0.5s;
+            cursor: pointer;
+            &:hover {
+                background: #a300a3;
+                color: white;
+            }
+        }
+    }
+}
